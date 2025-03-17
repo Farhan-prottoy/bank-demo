@@ -1,0 +1,74 @@
+body {
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.submit-area {
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black
+    padding: 40px;
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+}
+
+#transaction-area {
+    margin: 70px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.inside-row {
+    color: white;
+    margin-top: 20px;
+    padding: 60px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.input-area {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-area input {
+    margin-bottom: 10px;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .inside-row {
+        font-size: 1.2rem;
+        padding: 40px;
+    }
+
+    .submit-area {
+        padding: 30px;
+    }
+
+    #transaction-area {
+        margin: 30px;
+    }
+}
